@@ -14,14 +14,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Activity
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesloft/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: salesloft-helps-transform-sales-teams-into-modern-sales-organizations---converting-more-target-accounts-into-customer-accounts
+- name: SalesLoft - Fetch a crm activity
+  x-api-slug: v2crm-activitiesid-json-get
+  description: Fetches a crm activity, by ID only.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
   humanURL: http://salesloft.com
   baseURL: https://api.salesloft.com//
@@ -31,24 +31,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesloft/v2crm-activitiesid-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesloft/v2crm-activitiesid-json-get-openapi.md
-- name: SalesLoft
-  x-api-slug: salesloft
-  description: SalesLoft, the leading sales engagement platform, transforms the way
-    sellers engage with their customers by delivering a better selling experience.
-    Our sales engagement platform helps teams set and execute on a cadence of phone,
-    email, and social communications to convert more target accounts into customer
-    accounts. The platform equips sales leaders with new capabilities to test, learn
-    and adapt to ensure their sales reps execute on the most effective selling process
-    for their account-based approach. SalesLoft delivers access to an extensive ecosystem
-    of 3rd party integrations allowing teams to perform all their sales engagement
-    from a single platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png
-  humanURL: http://salesloft.com
-  baseURL: https://api.salesloft.com//
-  tags: Activity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesloft/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://salesforce.api.gallery.streamdata.io

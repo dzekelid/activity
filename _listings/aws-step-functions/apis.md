@@ -19,14 +19,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Activity
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Step Functions API
-  x-api-slug: aws-step-functions-api
-  description: ""
+- name: AWS Step Functions API - Create Activity
+  x-api-slug: actioncreateactivity-get
+  description: Creates an activity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
   humanURL: https://aws.amazon.com/step-functions/
   baseURL: :///
@@ -38,9 +38,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-openapi.md
-- name: AWS Step Functions API
-  x-api-slug: aws-step-functions-api
-  description: ""
+- name: AWS Step Functions API - Delete Activity
+  x-api-slug: actiondeleteactivity-get
+  description: Deletes an activity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
   humanURL: https://aws.amazon.com/step-functions/
   baseURL: :///
@@ -48,17 +48,13 @@ apis:
     API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-openapi.md
-- name: AWS Step Functions API
-  x-api-slug: aws-step-functions-api
-  description: ""
+- name: AWS Step Functions API - Describe Activity
+  x-api-slug: actiondescribeactivity-get
+  description: Describes an activity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
   humanURL: https://aws.amazon.com/step-functions/
   baseURL: :///
@@ -66,21 +62,13 @@ apis:
     API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondescribeactivity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondescribeactivity-get-openapi.md
-- name: AWS Step Functions API
-  x-api-slug: aws-step-functions-api
-  description: ""
+- name: AWS Step Functions API - List Activities
+  x-api-slug: actionlistactivities-get
+  description: Lists the existing activities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
   humanURL: https://aws.amazon.com/step-functions/
   baseURL: :///
@@ -88,25 +76,14 @@ apis:
     API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondescribeactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondescribeactivity-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actionlistactivities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actionlistactivities-get-openapi.md
-- name: AWS Step Functions API
-  x-api-slug: aws-step-functions-api
-  description: ""
+- name: AWS Step Functions API - Get Activity Task
+  x-api-slug: actiongetactivitytask-get
+  description: "Used by workers to retrieve a task (with the specified activity ARN)
+    which has been scheduled \n    for execution by a running state machine."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
   humanURL: https://aws.amazon.com/step-functions/
   baseURL: :///
@@ -114,49 +91,10 @@ apis:
     API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actioncreateactivity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondeleteactivity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondescribeactivity-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiondescribeactivity-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actionlistactivities-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actionlistactivities-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiongetactivitytask-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/actiongetactivitytask-get-openapi.md
-- name: AWS Step Functions API
-  x-api-slug: aws-step-functions-api
-  description: AWS Step Functions makes it easy to coordinate the components of distributed
-    applications and microservices using visual workflows. Building applications from
-    individual components that each perform a discrete function lets you scale and
-    change applications quickly. Step Functions is a reliable way to coordinate components
-    and step through the functions of your application. Step Functions provides a
-    graphical console to arrange and visualize the components of your application
-    as a series of steps. This makes it simple to build and run multi-step applications.
-    Step Functions automatically triggers and tracks each step, and retries when there
-    are errors, so your application executes in order and as expected. Step Functions
-    logs the state of each step, so when things do go wrong, you can diagnose and
-    debug problems quickly. You can change and add steps without even writing code,
-    so you can easily evolve your application and innovate faster.AWS Step Functions
-    manages the operations and underlying infrastructure for you to help ensure your
-    application is available at any scale.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
-  humanURL: https://aws.amazon.com/step-functions/
-  baseURL: :///
-  tags: Activity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/aws-step-functions/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.snowball.api.gallery.streamdata.io

@@ -8,35 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesf
 x-kinRank: "10"
 x-alexaRank: "146"
 tags: Activity
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesforce/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SalesForce
-  x-api-slug: salesforce
-  description: Build more meaningful and lasting relationships and connect with your
-    customers across sales, customer service, marketing, communities, apps, analytics,
-    and more using our Customer Success Platform. Try for Free.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
-  humanURL: http://developer.salesforce.com
-  baseURL: https://na14.salesforce.com//services/data
-  tags: Activity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesforce/openapi.md
-- name: Salesforce Sandbox
-  x-api-slug: salesforce-sandbox
-  description: Build more meaningful and lasting relationships and connect with your
-    customers across sales, customer service, marketing, communities, apps, analytics,
-    and more using our Customer Success Platform. Try for Free.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/175-salesforce.jpg
-  humanURL: http://developer.salesforce.com
-  baseURL: https://na14.salesforce.com//services/data/
-  tags: Activity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/salesforce/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://developer.salesforce.com

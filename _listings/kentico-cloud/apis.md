@@ -8,33 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kent
 x-kinRank: "7"
 x-alexaRank: "369033"
 tags: Activity
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/kentico-cloud/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Kentico Cloud
-  x-api-slug: kentico-cloud
-  description: this-is-a-collection-of-resources-you-can-find-within-the-kentico-cloud-developer-hubhttpsdeveloper-kenticocloud-com--kentico-cloudhttpskenticocloud-com-is-a-cloudfirst-headless-cms-that-allows-you-to-distribute-content-to-any-channel-and-device-websites-mobile-devices-mixed-reality-devices-presentation-kiosks-etc--through-an-api-certain-apis-require-that-you-include-the-authorization-header--find-more-in-httpsdeveloper-kenticocloud-comreferenceauthentication-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
-  humanURL: https://kenticocloud.com/
-  baseURL: https://deliver.kenticocloud.com//
-  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/kentico-cloud/activity-post-openapi.md
-- name: Kentico Cloud
-  x-api-slug: kentico-cloud
-  description: 'Kentico Cloud is the #1 CMS that enables digital teams to collaborate
-    quickly to create engaging personalized experiences across any device. Free 30-day
-    trial!'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
-  humanURL: https://kenticocloud.com/
-  baseURL: https://deliver.kenticocloud.com//
-  tags: Activity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/kentico-cloud/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: https://kenticocloud.com/rss

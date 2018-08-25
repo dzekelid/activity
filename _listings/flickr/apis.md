@@ -11,14 +11,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Activity
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - Activity User Comments
+  x-api-slug: restmethodflickr-activity-usercomments-get
+  description: Returns a list of recent activity on photos commented on by the calling
+    user. Do not poll this method more than once an hour.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -30,9 +31,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/restmethodflickr-activity-usercomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/restmethodflickr-activity-usercomments-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: explore-upload-and-organize-photos-on-flickr
+- name: Flickr - Activity User Photos
+  x-api-slug: restmethodflickr-activity-userphotos-get
+  description: Returns a list of recent activity on photos commented on by the calling
+    user. Do not poll this method more than once an hour.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
@@ -40,27 +42,10 @@ apis:
     Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
     Data, Pedestal, Historical Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/restmethodflickr-activity-usercomments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/restmethodflickr-activity-usercomments-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/restmethodflickr-activity-userphotos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/restmethodflickr-activity-userphotos-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: The Flickr API consists of a set of callable methods, and some API
-    endpoints.  To perform an action using the Flickr API, you need to select a calling
-    convention, send a request to its endpoint specifying a method and some arguments,
-    and will receive a formatted response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services/
-  tags: Activity
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/flickr/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://flat.api.gallery.streamdata.io
