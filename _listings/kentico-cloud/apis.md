@@ -8,11 +8,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kent
 x-kinRank: "7"
 x-alexaRank: "369033"
 tags: Activity
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/kentico-cloud/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Kentico Cloud - Record a custom activity
+  x-api-slug: activity-post
+  description: Log a custom action for a specified visitor.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/kentico-cloud/activity-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://kenticocloud.com/rss

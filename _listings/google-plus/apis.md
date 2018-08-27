@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Activity
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/google-plus/apis.md
 specificationVersion: "0.14"
 apis:
@@ -80,6 +80,40 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/google-plus/activitiesactivityidcomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/google-plus/activitiesactivityidcomments-get-openapi.md
+- name: Google Plus - Create Activity Comment
+  x-api-slug: activitiesactivityidcomments-post
+  description: Create a new comment in reply to an activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/google-plus/activitiesactivityidcomments-post-openapi.md
+- name: Google Plus - Create Activity
+  x-api-slug: peopleuseridactivities-post
+  description: Create a new activity for the authenticated user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/google-plus/peopleuseridactivities-post-openapi.md
+- name: Google Plus - Get Activities
+  x-api-slug: peopleuseridactivitiescollection-get
+  description: List all of the activities in the specified collection for a particular
+    user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-plus.png
+  humanURL: https://plus.google.com/
+  baseURL: https:///
+  tags: Social, Google APIs, Domains, Stack Network, Social Networks, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/google-plus/peopleuseridactivitiescollection-get-openapi.md
 - name: Google Plus - Get Activity Comments
   x-api-slug: activitiesactivityidcomments-get
   description: List all of the comments for an activity.

@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Activity
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,50 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apiv1activityevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apiv1activityevents-get-openapi.md
+- name: CommerceAPI - Create an activity event.
+  x-api-slug: apiv1activityevents-post
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apiv1activityevents-post-openapi.md
+- name: CommerceAPI - Gets a list of all possible event types.
+  x-api-slug: apiv1activityeventseventtypes-get
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apiv1activityeventseventtypes-get-openapi.md
+- name: CommerceAPI - Gets the event with the specified id.
+  x-api-slug: apiv1activityeventseventid-get
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apiv1activityeventseventid-get-openapi.md
+- name: CommerceAPI - Update activity event
+  x-api-slug: apiv1activityeventseventid-put
+  description: Request rate limited to 10 requests per second with bursts up to 100
+    requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png
+  humanURL: https://www.logicbroker.com/
+  baseURL: https://stage.commerceapi.io//
+  tags: Commerce, Retail
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activity/master/_listings/logicbroker/apiv1activityeventseventid-put-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.logicbroker.com/feed/

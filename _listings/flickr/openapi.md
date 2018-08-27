@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Flickr
 x-complete: 1
@@ -70,4 +69,3 @@ paths:
       tags:
       - Activity
       - UserPhotos
----

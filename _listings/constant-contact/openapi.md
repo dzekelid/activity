@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Constant Contact
 x-complete: 1
@@ -15,4 +14,34 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /{username}/activities:
+    post:
+      summary: Add Activity
+      description: Add Activity
+      operationId: add-activity
+      x-api-path-slug: usernameactivities-post
+      parameters:
+      - in: path
+        name: username
+      responses:
+        200:
+          description: OK
+      tags:
+      - Activity
+  /{username}/activities/{activity-id}:
+    get:
+      summary: Get Activity
+      description: Get Activity
+      operationId: get-activity
+      x-api-path-slug: usernameactivitiesactivityid-get
+      parameters:
+      - in: path
+        name: activity-id
+      - in: path
+        name: username
+      responses:
+        200:
+          description: OK
+      tags:
+      - Activity
